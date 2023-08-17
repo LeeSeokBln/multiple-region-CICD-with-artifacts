@@ -24,8 +24,7 @@ $ git init
 $ git remote add infra https://git-codecommit.us-east-1.amazonaws.com/v1/repos/project-infra-codecommit-repo
 $ git remote add secure https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/project-secure-codecommit-repo
 ```
-아래 파일을 압축 해제 후 infra Remote에 Push 
-[src]
+파일을 압축 해제 후 infra Remote에 Push 
 ```
 $ git branch -m main dev
 $ git add -A
@@ -112,4 +111,3 @@ CodePipeline을 생성, 해당 CodeBuild IAM Role에 아래와 같은 권한을 
     ]
 }
 ```
-[src]: https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/blob/main/infra_main.zip
