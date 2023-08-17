@@ -112,4 +112,4 @@ CodePipeline을 생성, 해당 CodeBuild IAM Role에 아래와 같은 권한을 
     ]
 }
 ```
-[src]: 
+[src]: https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/blob/main/infra_main.zip
