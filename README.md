@@ -37,7 +37,7 @@ $ git push --set-upstream infra dev
 ### Create CodeArtifacts Project
 ![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/117cdf09-35c3-49f5-967c-f0eb4a87db98)
 ![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/f1ff4fc2-1ce3-4fab-aa3d-5e5251cd5b60)
-![261177733-f59f4453-1b74-46d0-9457-06d7364fbedc](https://github.com/LeeSeokBln/multiple-region-CICD-with-artifacts/assets/86287920/da8198af-28b6-4f2d-8fc1-de4746e62095)
+![261177733-f59f4453-1b74-46d0-9457-06d7364fbedc](https://github.com/LeeSeokBln/multiple-region-CICD-with-artifacts/assets/86287920/b48d4885-6951-439f-ae06-b201b2e9a80e)
 ![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/2bf9ef24-6ddc-4584-bf48-7cd0be74b711)
 Buildspec작성 후 업로드
 ```
