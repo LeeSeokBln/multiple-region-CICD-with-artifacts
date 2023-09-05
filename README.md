@@ -3,7 +3,7 @@
 1. 보안팀 직원이 보안 관련된 파일을 ap-northeast-2에 있는 Code Commit의 Main브런치에 Push한다.
 2. 개발 팀에서 IaC 코드를 개발하고 us-east-1에 있는 Code Commit의 dev 브런치에 Push하면 Code Build에서 Build진행 후 보안 팀의 Code Commit에 request라는 브런치에 Push한다.
 3. 개발 팀에서 요청한 파일을 Code Build에서 보안 검사 후 개발 팀의 Code Commit의 complate브런치에 Push한다.
-   - 만약 보안 상의 문제가 있는 코드일 경우 인프라를 구축하지 않고 알림을 발생시킨다.
+   - 만약 보안 상의 문제가 있는 코드일 경우 인프라를 구축하지 않고 알림을 발생시킨다. 
 ### 개발 팀 파이프라인
 1. 개발 팀 직원이 Code Commit의 인프라 구축에 필요한 파일을 dev브런치에 Push한다.
 2. 개발 팀 Code Build에 해당 파일을 보안 팀의 Code Commit에 request브런치에 Push한다.
