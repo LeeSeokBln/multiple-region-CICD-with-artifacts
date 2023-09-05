@@ -1,4 +1,4 @@
-![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/62669117-cab3-426c-aaa3-f88376866e5d)
+![test](https://github.com/LeeSeokBln/multiple-region-CICD-with-artifacts/assets/86287920/aad21ccb-65c9-4230-a81b-d38ebf72ee74)![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/62669117-cab3-426c-aaa3-f88376866e5d)
 ### 보안 팀 파이프라인
 1. 보안팀 직원이 보안 관련된 파일을 ap-northeast-2에 있는 Code Commit의 Main브런치에 Push한다.
 2. 개발 팀에서 IaC 코드를 개발하고 us-east-1에 있는 Code Commit의 dev 브런치에 Push하면 Code Build에서 Build진행 후 보안 팀의 Code Commit에 request라는 브런치에 Push한다.
@@ -38,7 +38,7 @@ $ git push --set-upstream infra dev
 ![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/117cdf09-35c3-49f5-967c-f0eb4a87db98)
 ![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/f1ff4fc2-1ce3-4fab-aa3d-5e5251cd5b60)
 ![261177733-f59f4453-1b74-46d0-9457-06d7364fbedc-2](https://github.com/LeeSeokBln/multiple-region-CICD-with-artifacts/assets/86287920/b0a9b410-98ff-457d-b35c-9cea85ce92e3)
-![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/2bf9ef24-6ddc-4584-bf48-7cd0be74b711)
+![test](https://github.com/LeeSeokBln/multiple-region-CICD-with-artifacts/assets/86287920/408fcc67-4b02-41d4-94a7-02241f00b7a4)
 Buildspec작성 후 업로드
 ```
 version: 0.2
