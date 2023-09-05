@@ -1,4 +1,4 @@
-![test](https://github.com/LeeSeokBln/multiple-region-CICD-with-artifacts/assets/86287920/aad21ccb-65c9-4230-a81b-d38ebf72ee74)![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/62669117-cab3-426c-aaa3-f88376866e5d)
+![Untitled](https://github.com/LeeSeokBln/multiple-rigion-code-pipelines-security-checks-and-code-artifacts/assets/101256150/62669117-cab3-426c-aaa3-f88376866e5d)
 ### 보안 팀 파이프라인
 1. 보안팀 직원이 보안 관련된 파일을 ap-northeast-2에 있는 Code Commit의 Main브런치에 Push한다.
 2. 개발 팀에서 IaC 코드를 개발하고 us-east-1에 있는 Code Commit의 dev 브런치에 Push하면 Code Build에서 Build진행 후 보안 팀의 Code Commit에 request라는 브런치에 Push한다.
